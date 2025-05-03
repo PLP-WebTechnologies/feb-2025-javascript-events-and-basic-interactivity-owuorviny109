@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PLP Software Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <h1>My PLP Software Journey</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#main-header">Home</a>
+        <a href="#content">About</a>
+        <a href="#footer">Contact</a>
+    </nav>
+
+    <!-- Content Section -->
+    <main>
+        <section id="content" class="card">
+            <h2>Junior Software Developer</h2>
+            <p id="journeyText">
+                This journey as a technology student taking software engineering at PLP has been incredibly rewarding. It has taught me
+                more than just programming—it has taught me resilience, problem-solving, and the importance of a growth mindset. As I
+                continue to build my career, I’m excited to tackle new challenges and explore new opportunities in the world of software
+                engineering.
+            </p>
+            <p>
+                To anyone who is starting their journey in software engineering, remember that the road may be tough, but the rewards
+                are worth it. Stay curious, stay persistent, and embrace the learning process. The tech world is waiting for the next
+                generation of innovators, and I’m ready to be part of that revolution.
+            </p>
+            <div class="button-group">
+                <button id="changeTextButton">Change Text</button>
+                <button id="toggleStyleButton">Toggle Style</button>
+                <button id="addElementButton">Add Element</button>
+                <button id="secretActionButton">Secret Action</button>
+            </div>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <section id="imageGallery" class="card">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mountain Landscape" class="gallery-image">
+                <img src="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Forest Path" class="gallery-image">
+                <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach Sunset" class="gallery-image">
+                <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&w=600" alt="City Skyline" class="gallery-image">
+                <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Snowy Mountains" class="gallery-image">
+            </div>
+        </section>
+
+        <!-- Accordion Section -->
+        <section id="accordionSection" class="card">
+            <h2>Learn More</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">What is Software Engineering?</button>
+                    <div class="accordion-content">
+                        <p>Software engineering is the application of engineering principles to software development.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Why Choose This Career?</button>
+                    <div class="accordion-content">
+                        <p>It offers creativity, problem-solving, and the opportunity to impact the world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Content Section -->
+        <section id="dynamicContent" class="card">
+            <h2>Dynamic Content</h2>
+        </section>
+
+        <!-- Form Section -->
+        <section id="formSection" class="card">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="8" required>
+                <br>
+                <button type="submit" id="submitButton">Submit</button>
+            </form>
+            <p id="formFeedback"></p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <p>&copy; OwuorTechnologies. 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
